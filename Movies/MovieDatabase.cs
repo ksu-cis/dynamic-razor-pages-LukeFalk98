@@ -105,7 +105,7 @@ namespace Movies
         /// Filters the provided collection of movies
         /// </summary>
         /// <param name="movies">The collection of movies to filter</param>
-        /// <param name="ratings">The genres to include</param>
+        /// <param name="genre">The genres to include</param>
         /// <returns>A collection containing only movies that match the filter</returns>
         public static IEnumerable<Movie> FilterByGenre(IEnumerable<Movie> movies, IEnumerable<string> genre)
         {
